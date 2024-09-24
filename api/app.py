@@ -1,6 +1,6 @@
 from zipfile import ZipFile
 import io
-from bin.filters import apply_filter
+from api.bin.filters import apply_filter
 from typing import List
 from fastapi import FastAPI, File, UploadFile, Request, BackgroundTasks
 from fastapi.encoders import jsonable_encoder
