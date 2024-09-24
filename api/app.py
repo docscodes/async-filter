@@ -29,7 +29,7 @@ async def index():
       "filters_available": filters_available,
       "usage": {"http_method": "POST", "URL": "/<filter_available>/"},
   }
-  
+
   return jsonable_encoder(response)
 
 
